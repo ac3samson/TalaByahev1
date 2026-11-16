@@ -1,0 +1,13 @@
+{
+  "name": "talabyahe",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix admin",
+    "dev:api": "npm run dev --prefix server",
+    "dev:admin": "npm run dev --prefix admin",
+    "db:setup": "npm run db:setup --prefix server",
+    "db:seed": "npm run db:seed --prefix server",
+    "setup": "npm install --prefix server && npm install --prefix admin && npm run db:setup --prefix server -- --reset"
+  }
+}

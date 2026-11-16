@@ -1,0 +1,13 @@
+﻿node_modules/
+*/node_modules/
+.expo/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+eas-build-view.json
+talabyahe/
+conductor/_git_backup/
+conductor/assets/tmp.b64
+*.pack
